@@ -1,0 +1,102 @@
+body{
+    font-family: roboto-fonts-light, sans-serif;
+}
+@font-face {
+    font-family:roboto-fonts-bold;
+    src: url(/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+ font-family: roboto-fonts-Italic;
+ src: url(/fonts/Roboto-Italic.ttf);
+}
+@font-face {
+ font-family: roboto-fonts-light;
+    src: url(/fonts/Roboto-Light.ttf);
+}
+@font-face {
+ font-family: roboto-fonts-medium;
+   src:  url(/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+ font-family: roboto-fonts-regular;
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+ font-family: roboto-fonts-Thin;
+   src:  url(/fonts/Roboto-Thin.ttf);
+}
+
+.main-header{
+    background: #589FBF;
+    height: 300px;
+}
+.maintitle {
+    color: white;
+    text-align:center;
+    margin: auto;
+    padding-top: 100px;
+    font-family: roboto-fonts-medium, sans-serif;
+}
+.subtitle{
+    color: white;
+    text-align:center;
+    font-family: roboto-fonts-light, sans-serif;
+    font-weight: lighter;
+}
+.container-devDetails{
+    background: #CEEBF2;
+    height: 300px;
+}
+.devComp{
+    background: #82C5D9;
+    height: 300px;
+}
+
+.detailsComp{
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #fff;
+    color: #444;
+}
+
+.devProfilePic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.devProfile{
+    display: grid;
+    grid-template-columns: 30% auto;
+    margin-top: 15px;
+    /*background: #d5aeef;*/
+}
+
+.devName{
+    font-weight: 800;
+    font-size: larger;
+    font-family: roboto-fonts-medium, sans-serif;
+}
+.boundTitleContainer{
+    height: 40px;
+    background: #ffffff;
+}
+.boundTitle{
+    padding: 10px;
+}
+
+.menuico{
+    z-index: 1;
+    position: absolute;
+    right: 25px;
+    top: 265px;
+    width: 80px;
+}
