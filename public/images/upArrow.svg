@@ -1,0 +1,27 @@
+
+<svg width="123px" height="123px" viewBox="0 0 123 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="57.5" cy="57.5" r="57.5"></circle>
+        <filter x="-6.1%" y="-4.3%" width="112.2%" height="112.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-868.000000, -289.000000)">
+            <g id="arrow-up" transform="translate(872.000000, 291.000000)">
+                <g id="Oval-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#4481A6" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Group" transform="translate(24.000000, 36.000000)" fill="#FFFFFF">
+                    <rect id="Rectangle-7-Copy-2" transform="translate(20.817671, 21.318106) rotate(-45.000000) translate(-20.817671, -21.318106) " x="-2.68232874" y="15.948106" width="47" height="10.7399998"></rect>
+                    <rect id="Rectangle-7-Copy-3" transform="translate(46.817671, 21.718100) rotate(45.000000) translate(-46.817671, -21.718100) " x="23.3176713" y="16.3480999" width="47" height="10.7399998"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

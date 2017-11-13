@@ -1,5 +1,7 @@
 body{
     font-family: roboto-fonts-light, sans-serif;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 @font-face {
     font-family:roboto-fonts-bold;
@@ -44,15 +46,18 @@ body{
     font-weight: lighter;
 }
 .container-devDetails{
-    background: #CEEBF2;
-    height: 300px;
+
 }
-.devComp{
+.devList{
     background: #82C5D9;
     height: 300px;
+    margin: 0;
 }
 
-.detailsComp{
+.detailsPane{
+    background: #CEEBF2;
+    height: 300px;
+    margin: 0;
 }
 .wrapper{
     display: grid;
@@ -76,8 +81,14 @@ ul{
 .devProfile{
     display: grid;
     grid-template-columns: 30% auto;
-    margin-top: 15px;
+    margin-top: 0;
+    border-bottom: solid #d7d9d3 1px;
+    padding-bottom: 5px;
+    padding-top: 10px;
     /*background: #d5aeef;*/
+}
+.devProfile:hover{
+    background: #CEEBF2;
 }
 
 .devName{
@@ -99,4 +110,49 @@ ul{
     right: 25px;
     top: 265px;
     width: 80px;
+    transition-property: top;
+    transition-duration: 0.5s;
+    /*animation-timing-function: cubic-bezier(0, 1, 0.5, 1);*/
+}
+
+
+
+
+/*@keyframes resize {*/
+    /*0%{*/
+        /*height: 0;*/
+    /*}*/
+    /*100%{*/
+        /*height: 200px;*/
+    /*}*/
+/*}*/
+/*@keyframes drop {*/
+    /*0%{*/
+        /*top: 265px;*/
+    /*}*/
+    /*100%{*/
+        /*top: 465px;*/
+    /*}*/
+/*}*/
+
+.dropMenu{
+    height: 0;
+    visibility: hidden;
+    background: #d7d9d3;
+    transition-property: height,visibility;
+    transition-duration: 0.5s;
+
+}
+.animateMenu{
+   height: 200px;
+    visibility: visible;
+}
+.animateIcon{
+    top:465px;
+}
+
+.coming{
+    font-weight: 800;
+    font-size: larger;
+    font-family: roboto-fonts-medium, sans-serif;
 }
