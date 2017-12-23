@@ -45,13 +45,12 @@ body{
     font-family: roboto-fonts-light, sans-serif;
     font-weight: lighter;
 }
-.container-devDetails{
-
-}
 .devList{
     background: #82C5D9;
     height: 300px;
     margin: 0;
+    overflow: hidden;
+    overflow-y: scroll;
 }
 
 .detailsPane{
@@ -155,4 +154,31 @@ ul{
     font-weight: 800;
     font-size: larger;
     font-family: roboto-fonts-medium, sans-serif;
+}
+
+/*developer details styles */
+
+
+.mainDetails{
+    margin-left: 30%;
+    margin-top: 50px;
+    height: 200px;
+    background: #88acaf;
+    width: 40%;
+}
+.container-devDetails{
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.statusArea{
+    margin-left: 20%;
+    padding-top: 50px;
+
+}
+
+.contactArea{
+    margin-left: 20%;
+    padding-top: 15px;
+
 }

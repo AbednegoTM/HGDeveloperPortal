@@ -43,7 +43,6 @@ export default class App extends Component{
                <MainHeader/>
                 <div className={`dropMenu ${this.state.animateMenu}`}>
                         menu coming soon
-                    {variablej}
 
                     {/*{this.varia}*/}
                 </div>
