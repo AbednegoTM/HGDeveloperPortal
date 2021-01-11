@@ -2,15 +2,13 @@ import React, { Component } from 'react';
 
 import MainHeader from '../../imports/ui/MainHeader.jsx';
 import Developers from '../../imports/ui/Developers.jsx';
+import Form from '../../imports/ui/FormApp';
 
 
-let  variablej = "test";
 export default class App extends Component{
 
     constructor (){
         super();
-          this.varia = "test2";
-
         this.state = {
             isMenuDroped: false,
             animateIcon: "",
@@ -35,7 +33,6 @@ export default class App extends Component{
                 iconType:"/images/upArrow.svg"
             });
         }
-        variablej = "changed";
     }
    render(){
        return(
@@ -43,7 +40,6 @@ export default class App extends Component{
                <MainHeader/>
                 <div className={`dropMenu ${this.state.animateMenu}`}>
                         menu coming soon
-
                     {/*{this.varia}*/}
                 </div>
                <img onClick={this.handleMenuButtonClick.bind(this)}
@@ -52,7 +48,8 @@ export default class App extends Component{
                <div className={"boundTitleContainer"}>
                     <div className={"boundTitle"}>Developers</div>
                </div>
-               <Developers/>
+               {/* <Developers/> */}
+               <Form/>
            </div>
        )
    }

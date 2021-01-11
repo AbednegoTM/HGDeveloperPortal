@@ -76,7 +76,9 @@ ul{
     list-style: none;
     padding: 0;
 }
-
+.devProfile * {
+    pointer-events : none;
+}
 .devProfile{
     display: grid;
     grid-template-columns: 30% auto;
@@ -113,10 +115,6 @@ ul{
     transition-duration: 0.5s;
     /*animation-timing-function: cubic-bezier(0, 1, 0.5, 1);*/
 }
-
-
-
-
 /*@keyframes resize {*/
     /*0%{*/
         /*height: 0;*/
@@ -133,7 +131,6 @@ ul{
         /*top: 465px;*/
     /*}*/
 /*}*/
-
 .dropMenu{
     height: 0;
     visibility: hidden;
@@ -165,6 +162,20 @@ ul{
     height: 200px;
     background: #88acaf;
     width: 40%;
+}
+
+.socialDetails{
+    margin-left: 20%;
+}
+.socialDetails li>a{
+    text-decoration: none;
+    line-height: 2;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 16px; margin-left: 5px;
+}
+.socialDetailsHead{
+    margin-left: 30%;
 }
 .container-devDetails{
     height: 300px;
